@@ -1,3 +1,3 @@
 ﻿  Source.cpp
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-1\vjezba-1\Source.cpp(8,20): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-1\vjezba-1\Source.cpp(12,20): warning C4554: '|': check operator precedence for possible error; use parentheses to clarify precedence
   vjezba-1.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-1\Debug\vjezba-1.exe
