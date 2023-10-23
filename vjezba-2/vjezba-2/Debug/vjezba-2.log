@@ -1,0 +1,4 @@
+﻿  vjezba-2.c
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(21,1): warning C4005: 'EXIT_SUCCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(52): message : see previous definition of 'EXIT_SUCCESS'
+  vjezba-2.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\Debug\vjezba-2.exe
