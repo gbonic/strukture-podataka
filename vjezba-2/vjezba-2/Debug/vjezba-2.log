@@ -1,8 +1,9 @@
 ﻿  vjezba-2.c
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(21,1): warning C4005: 'EXIT_FAILURE': macro redefinition
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(22,1): warning C4005: 'EXIT_FAILURE': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(53): message : see previous definition of 'EXIT_FAILURE'
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(41,7): warning C4101: 'name': unreferenced local variable
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(42,7): warning C4101: 'surname': unreferenced local variable
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(79,8): warning C4013: 'strcpy' undefined; assuming extern returning int
-C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(130): warning C4716: 'findLast': must return a value
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(46,7): warning C4101: 'name': unreferenced local variable
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(47,7): warning C4101: 'surname': unreferenced local variable
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(165,17): warning C4047: 'return': 'int' differs in levels of indirection from 'position'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(123): warning C4716: 'findLast': must return a value
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\vjezba-2\vjezba-2.c(146): warning C4172: returning address of local variable or temporary: surname
   vjezba-2.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-2\Debug\vjezba-2.exe
