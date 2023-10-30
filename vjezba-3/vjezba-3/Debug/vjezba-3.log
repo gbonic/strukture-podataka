@@ -1,0 +1,13 @@
+﻿  vjezba-3.c
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(24,1): warning C4005: 'EXIT_FAILURE': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(53): message : see previous definition of 'EXIT_FAILURE'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(49,7): warning C4101: 'name': unreferenced local variable
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(50,7): warning C4101: 'surname': unreferenced local variable
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(168,17): warning C4047: 'return': 'int' differs in levels of indirection from 'position'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(203,10): warning C4566: character represented by universal-character-name '\u0111' cannot be represented in the current code page (1252)
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(213,11): warning C4566: character represented by universal-character-name '\u0107' cannot be represented in the current code page (1252)
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(214,28): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(215,21): warning C4013: 'insertAfterPerson' undefined; assuming extern returning int
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(126): warning C4716: 'findLast': must return a value
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\vjezba-3\vjezba-3.c(149): warning C4172: returning address of local variable or temporary: surname
+  vjezba-3.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-3\Debug\vjezba-3.exe
