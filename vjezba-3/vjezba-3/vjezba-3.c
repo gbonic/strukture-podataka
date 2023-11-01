@@ -23,7 +23,7 @@
 
 #define EXIT_FAILURE (-1)
 #define EMPTY_LIST (-1)
-#define PERSON_NOT_FOUND (-1)
+#define PERSON_NOT_FOUND (-3)
 
 typedef struct _person* position;
 typedef struct _person {
@@ -41,7 +41,8 @@ int printPerson(position person);
 int printList(position firstPerson);
 int deletePerson(position head);
 int findPerson(position head);
-int insertBeforePerson(position head);
+int insertAfterPerson(position head);
+int findPrevious(position head);
 
 int main() {
 	Person Head = { .name = {0}, .surname = {0}, .birthYear = 0, .next = NULL };
@@ -75,7 +76,7 @@ position createPerson() {
 	strcpy(newPerson->name, name);
 	strcpy(newPerson->surname, surname);
 	newPerson->birthYear = birthYear;
-	/*newPerson->next = NULL;*/
+	
 
 	return newPerson;
 }
@@ -162,7 +163,8 @@ int findPerson(position head) {
 	strcpy(surname, enterSurname());
 	while (current != 0 && strcmp(current->surname, surname) != 0) {
 		current = current->next;
-	}if (strcmp(current->surname, surname) == 0) {
+	}
+	if (strcmp(current->surname, surname) == 0) {
 		printf("Ime:\t Prezime:\t Godina rodjenja:\n");
 		printPerson(current);
 		return current;
@@ -200,7 +202,7 @@ int deletePerson(position head) {
 int menu(Person Head) {
 	while (1) {
 		int choice;
-		printf("\nUnesi 1 za unos na pocetak liste,\n\t2 za ispis liste,\n\t3 za unos na kraj liste,\n\t4 za pretragu po prezimenu,\n\t5 za brisanje osobe,\n\t6 za dodavanje nakon odredjene osobe i\n\t0 za izlaz iz programa.\n");
+		printf("\nUnesi 1 za unos na pocetak liste, 2 za ispis liste,\n\t3 za unos na kraj liste, 4 za pretragu po prezimenu,\n\t5 za brisanje osobe, 6 za dodavanje nakon odredjene osobe,\n\t7 za dodavanje prije odredene osobe i 0 za izlaz iz programa.\n");
 		scanf("%d", &choice);
 
 		if (choice == 1) addToBeginning(&Head);
@@ -210,9 +212,16 @@ int menu(Person Head) {
 		else if (choice == 5) deletePerson(&Head);
 		else if (choice == 6) {
 			position person = NULL;
-			printf("Upisujete osobu nakon sljedece osobe:\n");
-			person=findPerson(&Head);
+			printf("Upisujete osobu nakon osobe:\n");
+			person = findPerson(&Head);
 			insertAfterPerson(person);
+		}
+		else if (choice == 7) { //provjera ako ne unesemo nista
+			position person = NULL;
+			person = findPrevious(&Head);
+			insertAfterPerson(person);
+			
+
 		}
 		else if (choice == 0) break;
 		else printf("Nisi unio ispravan broj!\n");
@@ -231,3 +240,29 @@ int insertAfterPerson(position person) {
 	}
 	return EXIT_SUCCESS;
 }
+
+int findPrevious(position head) {
+	position current = head;
+	if (!head->next) {
+		printf("Lista je prazna.\n");
+		return PERSON_NOT_FOUND;
+	}
+
+	//ako je prezime od iduce osobe jednako osobi koju mi unosimo
+	//onda je current zapravo previous
+	char surname[MAX_SIZE] = { 0 };
+	
+	strcpy(surname, enterSurname());
+	
+	while (current->next) {
+		if (strcmp(current->next->surname, surname) == 0) {
+			return current;
+		}
+		else {
+			current = current->next;
+		}
+	}
+	return EXIT_SUCCESS;
+}
+
+
