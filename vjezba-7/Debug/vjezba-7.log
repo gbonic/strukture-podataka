@@ -1,0 +1,4 @@
+﻿  vjezba-7.c
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-7\vjezba-7.c(182,20): warning C4047: 'return': 'int' differs in levels of indirection from 'void *'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-7\vjezba-7.c(187): warning C4715: 'push': not all control paths return a value
+  vjezba-7.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-7\Debug\vjezba-7.exe
