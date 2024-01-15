@@ -1,0 +1,11 @@
+﻿  vjezba-9.c
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(6,1): warning C4005: 'EXIT_SUCCESS': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(52): message : see previous definition of 'EXIT_SUCCESS'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(8,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1283): message : see previous definition of 'min'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(9,1): warning C4005: 'max': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h(1282): message : see previous definition of 'max'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(59,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(32,13): warning C4101: 'x': unreferenced local variable
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\vjezba-9.c(32,9): warning C4101: 'el': unreferenced local variable
+  vjezba-9.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-9\Debug\vjezba-9.exe
