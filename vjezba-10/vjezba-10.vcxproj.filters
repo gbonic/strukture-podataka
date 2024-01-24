@@ -15,15 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="vjezba-10a.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="vjezba-10b.c">
+    <ClCompile Include="vjezba-10.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Text Include="drzave.txt">
+      <Filter>Header Files</Filter>
+    </Text>
     <Text Include="austrija.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="belgija.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="hrvatska.txt">
+      <Filter>Header Files</Filter>
+    </Text>
+    <Text Include="italija.txt">
       <Filter>Header Files</Filter>
     </Text>
   </ItemGroup>
