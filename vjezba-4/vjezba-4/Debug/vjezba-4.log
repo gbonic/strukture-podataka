@@ -1,0 +1,4 @@
+﻿  vjezba-4.c
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-4\vjezba-4\vjezba-4.c(47,30): warning C4047: 'return': 'position' differs in levels of indirection from 'int'
+C:\Users\GabrielaBonić\strukture-podataka\vjezba-4\vjezba-4\vjezba-4.c(108,15): warning C4013: 'strlen' undefined; assuming extern returning int
+  vjezba-4.vcxproj -> C:\Users\GabrielaBonić\strukture-podataka\vjezba-4\Debug\vjezba-4.exe
